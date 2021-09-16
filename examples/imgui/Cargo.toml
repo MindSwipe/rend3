@@ -13,13 +13,13 @@ path = "src/main.rs"
 [dependencies]
 rend3 = { git = "https://github.com/MindSwipe/rend3" }
 rend3-pbr = { git = "https://github.com/MindSwipe/rend3" }
-winit = "0.23"
+winit = "0.25"
 pollster = "0.2"
 glam = "0.18"
 log = "0.4"
 env_logger = "0.9"
 wgpu = "0.10"
 imgui = "0.7"
-imgui-winit-support = { version = "0.7", default-features = false, features = ["winit-23"] }
+imgui-winit-support = { version = "0.7", default-features = false, features = ["winit-25"] }
 imgui-wgpu = "0.17"
 wgpu-subscriber = "0.1"
